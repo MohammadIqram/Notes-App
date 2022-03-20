@@ -1,0 +1,45 @@
+.modal2-ul{
+    margin: 0.8rem 0 1rem 2rem;
+}
+
+.modal2-ul li{
+    color: rgb(156, 155, 155);
+}
+
+.modal2-para{
+    color: rgb(107, 107, 107);
+}
+
+.feedback-box{
+    margin-top: 1rem;
+}
+
+.feedback-para{
+    margin-bottom: 10px;
+    color: #696969
+}
+
+.feedback-button-container{
+    margin-top: 1rem;
+    width: 16.8rem;
+    text-align: right;
+}
+
+.feedback-button{
+    color: #FFF !important;
+    background-color: #1565C0 !important;
+
+}
+
+.feedback-logged-email{
+    display: flex !important;
+    color:#1565C0;
+}
+
+.feedback-button:disabled{
+    background-color: #1565c085 !important;
+}
+
+.subButton{
+    color: #1976D2 !important;
+}

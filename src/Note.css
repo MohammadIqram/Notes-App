@@ -1,0 +1,72 @@
+.note-box{
+    position: relative;
+    box-sizing: border-box;
+    margin: 0.8rem;
+    border-radius: 6px;
+    width: 240px;
+    font-family: 'Roboto', sans-serif;
+    color: #4B4E4E;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition: box-shadow 0.2s;
+}
+
+.note-box:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.note-box:hover > .note-menu-panel{
+    visibility: visible;
+    opacity: 1;
+}
+
+.note-box-title{
+    font-weight: 500;
+    margin: 1rem;
+}
+
+.note-box-body{
+    margin: 0 0 0 1rem;
+    text-shadow: 1px 1.2px 7px rgba(0,0,0,0.3);
+}
+
+.note-menu-panel{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+.note-menu-panel > ul{
+    margin-left: 10px;
+    height: 4.5rem;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.note-menu-panel > ul > li{
+    margin-right: 5px;
+}
+
+.note-menu-panel > ul > li > a{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.note-menu-panel > ul > li > a:hover{
+    background-color: #E9EAEA;
+}
+
+.note-panel-icon{
+    padding: 6px;
+    color: #313131 !important;
+    font-size: 2rem !important;
+}
+
+.note-check{
+    position: absolute;
+    top: -9px;
+    left: -9px;
+    color: #000;
+}
